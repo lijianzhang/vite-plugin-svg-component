@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "strict": false,
+    "rootDir": "src",
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "suppressExcessPropertyErrors": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ES2015",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "stripInternal": true,
+    "lib": ["ESNext", "DOM"],
+  }
+}
