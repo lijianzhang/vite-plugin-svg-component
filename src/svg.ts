@@ -1,5 +1,5 @@
 declare module '*.svg?component' {
-    import { Component } from 'vue';
-    const c: Component
+    import { FunctionalComponentOptions } from 'vue';
+    const c: FunctionalComponentOptions
     export default c;
 }
