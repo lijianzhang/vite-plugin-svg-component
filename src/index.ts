@@ -41,7 +41,7 @@ export function vueSvg(options: Partial<IVueSvgIconOptions> = {}): Plugin {
     })
 
     function getSvgName(p: string) {
-        return path.relative(path.join(root, o.dir), p).replace(/\.svg/, '').replace(/[/_-]+?(\w)/g, (str, k: string) => {
+        return path.relative(path.join(o.dir), p).replace(/\.svg/, '').replace(/[/_-]+?(\w)/g, (str, k: string) => {
             return k.toUpperCase();
         }).replace(/^\w/, (str) => str.toUpperCase()) + 'Icon';
     }
